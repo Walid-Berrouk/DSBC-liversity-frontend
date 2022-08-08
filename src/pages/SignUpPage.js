@@ -132,7 +132,8 @@ const footerDiv="w-11/12 mx-auto my-5 flex items-center justify-between"
               </a>
               </Link>
             </h3>
-            <button className={`${nextBtnStyle} `}>Next</button>
+            <Link to="/home" className={`${nextBtnStyle} `}>Next </Link>
+            {/* <button  </button> */}
 
           </div>
         </form>
