@@ -1,5 +1,6 @@
 import React from "react";
 import Scope from "./Scope";
+import { FiFilter } from "react-icons/fi"
 
 export default function Searchbar() {
   return (
@@ -18,7 +19,7 @@ export default function Searchbar() {
             type="submit"
             class="text-white absolute right-2 -translate-y-1/2 top-1/2 px-4 py-2"
           >
-            <img src="https://placehold.co/32x32.png" alt="" />
+            <FiFilter className="text-black text-xl"/>
           </button>
         </div>
       </form>

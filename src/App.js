@@ -1,12 +1,14 @@
-import './App.css';
-import { BrowserRouter } from 'react-router-dom'
-import Layout from './components/Layout';
+import "./App.css";
+import Layout from "./components/Layout";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout />
-    </BrowserRouter>
+    <div className="App h-screen w-screen">
+      <BrowserRouter>
+        <Layout />
+      </BrowserRouter>
+    </div>
   );
 }
 

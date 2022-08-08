@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
-    <div className="w-36 h-screen flex flex-col items-center justify-between shadow-2xl">
+    <div className="w-36 h-screen flex flex-col items-center justify-between shadow-4xl">
       <div className="flex flex-col items-center w-full">
         <img className="py-8" src="https://placehold.co/72x72.png" alt="" />
         <div className="w-full">

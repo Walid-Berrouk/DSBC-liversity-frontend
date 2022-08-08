@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillCaretDown } from "react-icons/ai";
 
 export default function ConnectedUser({ name, picture, type }) {
   return (
@@ -11,11 +12,7 @@ export default function ConnectedUser({ name, picture, type }) {
         <div className="text-gray-500">{type}</div>
       </div>
       <button className="flex h-full">
-        <img
-          className="h-6 w-6 mt-2"
-          src="https://placehold.co/12x12.png"
-          alt=""
-        />
+        <AiFillCaretDown className="mt-3.5"/>
       </button>
     </div>
   );
