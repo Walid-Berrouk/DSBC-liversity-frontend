@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Enjoy from "../components/HomePage/Enjoy";
+import Rooms from "../components/HomePage/Rooms";
 import Sidebar from "../components/HomePage/Sidebar";
 import Top from "../components/HomePage/Top";
 
@@ -16,6 +17,10 @@ export default function Home() {
         <Top name={name} picture={picture} type={type} />
         <div className="px-24">
           <Enjoy connected={connected} />
+          <Rooms/>
+          <div className="flex flex-col items-start my-8">
+            <h3 className="text-2xl font-semibold">Solo study rooms</h3>
+          </div>
         </div>
       </div>
     </div>
