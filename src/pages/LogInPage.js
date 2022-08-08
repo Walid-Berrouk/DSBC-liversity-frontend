@@ -10,6 +10,7 @@ import purple from "../assets/purple.png"
 import green from "../assets/green.png"
 import gray from "../assets/gray.png"
 import square from "../assets/square.png"
+
 function LogInPage() {
   const inputStyle="outline-none rounded-xl py-2 px-5 border-2 border-[#a0969d] shadow-xl w-full"
   const submitStyle="rounded-xl p-2 border-2 border-[#a0969d] bg-[#6e42d7] shadow-xl w-full text-white cursor-pointer hover:bg-[#7c5ac7]"

@@ -6,7 +6,9 @@ import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App h-screen w-screen">
-      <BrowserRouter> <Layout/></BrowserRouter>
+      <BrowserRouter> 
+        <Layout/>
+      </BrowserRouter>
     
     </div>
   );
