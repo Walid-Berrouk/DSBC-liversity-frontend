@@ -31,7 +31,7 @@ function LogInPage() {
                 </div>
                 <div className={inputDiv}>
                   <h2 className={inputTitle}>Password</h2>
-                  <input type="text" name="" id="" placeholder="••••••••" className={inputStyle}/>
+                  <input type="password" name="" id="" placeholder="••••••••" className={inputStyle}/>
                 </div>
                 <h3 className="w-1/2 text-start m-auto mt-3">
                   <input type="checkbox" id="rememberme" className="mr-2 h-4 w-4"/>
