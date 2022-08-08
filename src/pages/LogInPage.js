@@ -70,9 +70,11 @@ function LogInPage() {
             </Link>
             <h3 className="w-fit self-start mt-3 ">
               Don't have an account?{" "}
+              <Link to="/SignUpPortal">
               <a href="#" className="text-[#6e42d7]">
                 sign up
               </a>
+              </Link>
             </h3>
           </div>
         </form>
