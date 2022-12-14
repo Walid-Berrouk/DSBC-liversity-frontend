@@ -7,7 +7,7 @@ export default function Sidebar() {
       <div className="flex flex-col items-center w-full">
         <img className="py-8" src="https://placehold.co/72x72.png" alt="" />
         <div className="w-full">
-          <Link to="/">
+          <Link to="/home">
             <div className="w-full py-2 hover:bg-gray-200">
               <img
                 className="mx-auto"
@@ -16,7 +16,7 @@ export default function Sidebar() {
               />
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/projects">
             <div className="w-full py-2 hover:bg-gray-200">
               <img
                 className="mx-auto"
