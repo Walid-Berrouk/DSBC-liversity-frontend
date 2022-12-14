@@ -6,6 +6,7 @@ import CartesPage from "../pages/CartesPage";
 import Home from "../pages/HomePage";
 import SignUpPage from "../pages/SignUpPage";
 import Layout2 from "./Layout2";
+import ProjectsPage from "../pages/ProjectsPage";
 
 export default class Layout extends Component {
   constructor(props) {
@@ -25,6 +26,14 @@ export default class Layout extends Component {
           element={
             <Layout2>
               <Home />
+            </Layout2>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <Layout2>
+              <ProjectsPage />
             </Layout2>
           }
         />
