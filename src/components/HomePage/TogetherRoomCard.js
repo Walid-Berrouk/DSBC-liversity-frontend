@@ -43,8 +43,8 @@ export default function TogetherRoomCard({ room }) {
         </div>
       </div>
       <div className="flex flex-wrap mt-8 px-2">
-        {room.categories.map((category) => (
-          <div className="bg-gray-200 rounded-3xl font-semibold mx-2 my-1 px-2">
+        {room.categories.map((category, index) => (
+          <div key={index} className="bg-gray-200 rounded-3xl font-semibold mx-2 my-1 px-2">
             {category}
           </div>
         ))}
